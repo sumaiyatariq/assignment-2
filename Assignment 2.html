@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+   <style>
+    body {
+
+       text-align:center;
+        background-color: rgb(16, 16, 82);
+        color: white;
+    }
+    input {
+        background-color: darkblue;
+    }
+   textarea {
+    background-color:darkblue ;
+    color: aliceblue;
+   }
+   h1 {
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   </style>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <Form>
+        <label for="first name">Enter Your First Name:</label>
+        <div><input type="text"></div>
+        <br>
+        <label  for="last name">Enter Your Last Name</label>
+        <div><input type="text"></div>
+        <br>
+        <label for="email">Enter Your Email</label>
+        <div><input type="email"></div>
+        <br>
+        <label for="password">Create a New Password</label>
+        <div><input type="password"></div>
+        <br>
+        <hr>
+        <div><input type="radio"><label for="personal account">Personal Account</label></div>
+        <br>
+       <div><input type="radio"><label for="business account">Business Account</label></div>
+       <br>
+       <div><input type="checkbox"><label for="terns and condition">I accept the <u>terms and conditions</u></label>
+     </div>
+        <br>
+        <hr>
+        <label   for="profile picture">Upload Your Profile Picture:</label>
+        <div ><input type="text"><input type="file" accept="audio/*img/jpeg/*PDF"></div>
+        <br>
+        <label for="age">Input Your Age(Years):</label>
+        <div><input type="text"></div>
+        <br>
+        <label  for="about us">How did you hear about us: </label>
+        <div ><select>
+            <option value="select one">(select one)</option>
+        </select>
+    </div>
+        <br>
+        <label for="Biodata">Provide a bio:</label> 
+        <div><textarea name="bio" rows="3" cols="50">I like coding on the beach...</textarea> </div>
+    </Form>
+    
+</body>
+</html>
